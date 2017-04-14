@@ -1,0 +1,40 @@
+/* STYLE LOGIN MCSY */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-size: 14px;
+	font-family: arial,sans-serif;
+	color: #000;
+	background: #FFF;
+	background-image: url('../images/bg.jpg');
+	background-size: 100%;
+}
+.formLogin{
+	padding: 10px;
+	background: #FFF;
+	width: 260px;
+}
+.formLogin h1{
+
+}
+.formLogin .formElement{
+	margin-top: 10px;
+}
+.formLogin label{
+	font-weight: bold;
+}
+.formLogin input[type="text"],.formLogin input[type="password"]{
+	border: 1px solid #CCC;
+	padding: 5px;
+	display: block;
+	width: 245px;
+}
+.formLogin input[type="submit"]{
+	border: none;
+	background: #0093FF;
+	color: #FFF;
+	padding: 5px;
+	margin-bottom: 10px;
+}
